@@ -1,0 +1,68 @@
+/* src/styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    color: white;
+}
+
+canvas {
+    border: 1px solid #61dafb;
+    border-radius: 10px;
+    background-color: #20232a;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #61dafb;
+}
+
+.score-display {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* src/styles.css */
+.bunny-rabbit {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: pink;
+    border-radius: 50%;
+    box-shadow:
+            -10px -10px 0 0 pink, /* ears */
+            10px -10px 0 0 pink,
+            -5px -5px 0 0 white, /* inner ears */
+            5px -5px 0 0 white,
+            0 0 0 2px black, /* eyes */
+            0 0 0 4px black, /* nose */
+            0 0 0 6px black; /* mouth */
+}
+
+/* src/styles.css */
+.top-view {
+    position: relative;
+    background-color: #20232a;
+    border: 1px solid #61dafb;
+    border-radius: 10px;
+}
+
+.snake-segment {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 4px;
+}
